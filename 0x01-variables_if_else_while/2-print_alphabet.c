@@ -6,7 +6,10 @@
 int main(void)
 {
 Char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar("\n", ch);
+for (ch = 'a'; ch <= 'z'; ch++);
+{
+putchar(ch);
+}
+putchar('\n') 
 return (0)
 }
