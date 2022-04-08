@@ -4,7 +4,7 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
-* main - assigns number to int n when entered, 
+* main - assigns a number to int n when entered
 * it excutes, and prints answer
 * Return: 0 is success
 */
