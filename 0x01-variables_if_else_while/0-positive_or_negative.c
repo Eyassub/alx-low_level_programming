@@ -3,6 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+/**
+* main - assigns number to int n 
+* excutes and prints answer
+* return 0 is success
+*/
 int main(void)
 {
 int n;
