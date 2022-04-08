@@ -11,6 +11,7 @@ for (n = 0; n < 10;)
 putchar(n);
 }
 n++;
+}
 putchar('\n');
 return (0);
 }
