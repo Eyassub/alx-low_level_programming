@@ -3,7 +3,7 @@
 * main - gives alphabets in lowercase from a to z
 * Return: 0 is a success
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
