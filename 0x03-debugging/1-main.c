@@ -16,7 +16,7 @@ i = 0;
 while (i < 10)
 {
 putchar(i);
-} /* this curly braket should be after return (0); */
+}
 printf("Infinite loop avoided! \\o/\n");
 
 return (0);
