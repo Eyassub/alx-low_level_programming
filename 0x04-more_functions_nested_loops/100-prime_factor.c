@@ -13,6 +13,7 @@ test = 2;
 while (max > test)
 {
 if (max % test == 0)
+{
 lower = test;
 max = max / lower;
 test = lower + 1;
