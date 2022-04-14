@@ -5,20 +5,23 @@
 */
 void print_triangle(int size)
 {
-if (size <= 0)
-{
 int i, j;
-for (i = 1; i <= size; i++)
+if (size > 0)
 {
-for (j = i; j < size; j++)
+for (i = 0; i <= size; i++)
 {
+for (j = 0; j < size; j++)
+{
+if ((size - i - 1) > j)
 _putchar(' ');
-}
-for (j = 1; j <= i; j++)
-{
+else
 _putchar('#');
 }
 _putchar('\n');
 }
+}
+else
+{
+_putchar('\n');
 }
 }
