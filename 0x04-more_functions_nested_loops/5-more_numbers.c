@@ -5,7 +5,7 @@
 void more_numbers(void)
 {
 int count = 0;
-char n, m;
+int n, m;
 while (count++ <= 9)
 {
 for (n = '0'; n <= '9'; n++)
