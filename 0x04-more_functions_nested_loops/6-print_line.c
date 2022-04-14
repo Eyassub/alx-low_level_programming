@@ -5,13 +5,10 @@
 */
 int print_line(int n)
 {
-int i;
-if (n > 0)
-{
-for (i = 0; i < n; i++)
+while (n >= 1)
 {
 _putchar('_');
+n--;
 }
-}
- _putchar('\n');
+_putchar('\n')
 }
