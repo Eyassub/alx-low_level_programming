@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strncpy(char *dest, char *src, int n) - cpoies a string 
+* *_strncpy(char *dest, char *src, int n) - cpoies a string
 * @dest: destination of string
 * @src: source of string
 * @n: number of bytes

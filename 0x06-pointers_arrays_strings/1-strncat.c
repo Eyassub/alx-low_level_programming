@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* *_strncat(char *dest, char *src, int n) - concatenates n bytes from a string to another
+* *_strncat(char *dest, char *src, int n) - concatenates n bytes
+* from a string to another
 * @dest: string to be added on
 * @src: sstring to add
 * Return: the pointer to dest
