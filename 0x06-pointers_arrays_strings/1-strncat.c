@@ -2,7 +2,8 @@
 /**
 * *_strncat - concatenates n bytes from a string to another
 * @dest: string to be added on
-* @src: sstring to add
+* @src: string to add
+* @n: number of bytes of str to concatenate
 * Return: the pointer to dest
 */
 char *_strncat(char *dest, char *src, int n)
