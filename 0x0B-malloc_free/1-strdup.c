@@ -12,7 +12,6 @@ char *s;
 if (str == NULL)
 return (NULL);
 for (i = 0; str[i]; i++)
-;
 i++;
 s = malloc(sizeof(char));
 if (s == NULL)
