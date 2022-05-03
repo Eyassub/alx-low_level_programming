@@ -6,7 +6,7 @@
 * @s2: second string
 * Return: pointer to newly allocated space in memory, or NULL if error
 */
-char *str_concat(char *s1, char *s2);
+char *str_concat(char *s1, char *s2)
 {
 int i, j;
 char *s;
