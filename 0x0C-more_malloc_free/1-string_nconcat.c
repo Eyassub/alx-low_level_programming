@@ -31,4 +31,5 @@ s[i++] = s2[j++];
 while (n >= l && i < (k + l))
 s[i++] = s2[j++];
 s[i] = '\0';
+return (s);
 }
