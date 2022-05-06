@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 * *string_nconcat - concatenates n bytes of two strings
 * @s1: first string
@@ -8,15 +9,11 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int i, j, k, l;
 char *s;
-i = 0;
-j = 0;
-k = 0;
-l = 0;
-while (s1 && *s1++)
+unsigned int i = 0, j = 0, k = 0, l = 0;
+while (s1 && s1[k])
 k++;
-while (s2 && *s2++)
+while (s2 && s2[l])
 l++;
 if (n < l)
 s = malloc(sizeof(char) * (k + n + 1));
