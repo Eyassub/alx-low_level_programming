@@ -13,7 +13,7 @@ int i,j;
 i = max - min +1;
 if (min > max)
 return (NULL);
-p = malloc(sizeof(*p) * i);
+p = malloc(sizeof(*p) * (max - min +1));
 if (p == NULL)
 return (NULL);
 for (j = 0; j < i; j++)
