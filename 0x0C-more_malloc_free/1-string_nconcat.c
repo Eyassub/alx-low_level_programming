@@ -6,7 +6,7 @@
 * @n: number of bytes
 * Return: pointers to a string
 */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i, j, k, l;
 char *s;
