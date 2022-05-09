@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "dog.h"
 /**
 * new_dog - creates a new dog
@@ -29,6 +28,7 @@ for (i = 0; i < nl; i++)
 dog->name[i] = name[i];
 dog->age = age;
 for (ol = 0; owner[ol]; ol++)
+;
 ol++;
 dog->owner = malloc(ol * sizeof(char));
 if (dog->owner == NULL)
