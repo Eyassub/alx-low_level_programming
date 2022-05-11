@@ -7,7 +7,7 @@
 */
 int op_add(int a, int b)
 {
-int (a + b);
+return (a + b);
 }
 /**
 * op_sub - subtracts b from a
@@ -17,7 +17,7 @@ int (a + b);
 */
 int op_sub(int a, int b)
 {
-int (a - b);
+return (a - b);
 }
 /**
 * op_mul - multiplies a and b
@@ -47,5 +47,5 @@ return (a / b);
 */
 int op_mod(int a, int b)
 {
-return (a % b)
+return (a % b);
 }
