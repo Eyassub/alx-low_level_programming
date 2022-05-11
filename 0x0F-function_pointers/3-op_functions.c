@@ -47,10 +47,10 @@ exit(100);
 return (a / b);
 }
 /**
-* op_mod - find the remainder of the division of a by b
+* op_mod - find the remainder
 * @a: first number
 * @b: second number
-* Return: remainder of the division of a by b
+* Return: remainder
 */
 int op_mod(int a, int b)
 {
