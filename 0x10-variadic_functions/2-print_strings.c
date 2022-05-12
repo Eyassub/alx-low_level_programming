@@ -7,7 +7,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
- char *str;
+char *str;
 va_list a;
 va_start(a, n);
 for (i = 0; i < n; i++)
