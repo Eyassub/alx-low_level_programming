@@ -188,7 +188,7 @@ printf("\n");
 * @h: the ELF header struct
 */
 void print_entry(Elf64_Ehdr h)
-{  
+{
 int i = 0, len = 0;
 unsigned char *p = (unsigned char *)&h.e_entry;
 printf("  Entry point address:               0x");
